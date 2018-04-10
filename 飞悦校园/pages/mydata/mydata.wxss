@@ -1,0 +1,76 @@
+.all_1{
+  flex: 1;
+  background-color:  lightskyblue;
+  font-size:40px; 
+  padding: 20px;
+
+}
+.all_2{
+  flex: 1;
+
+  font-size:20px; 
+  padding: 20px;
+
+}
+.all_3{
+  flex: 1;
+  background-color:  aliceblue;
+  font-size:20px; 
+  padding: 20px;
+
+}
+.all_4{
+  flex: 1;
+
+  font-size:20px; 
+  padding: 20px;
+}
+.all_5{
+  flex: 1;
+  background-color:aliceblue;
+  font-size:20px; 
+  padding: 20px;
+
+}
+.all_6{
+  flex: 1;
+
+  font-size:20px; 
+  padding: 20px;
+
+}
+.all_7{
+  flex: 1;
+  background-color: aliceblue;
+  font-size:20px; 
+  padding: 20px;
+}
+.all_2 image{
+  width: 30px;
+  height: 30px;
+}
+
+.all_3 image{
+  width: 30px;
+  height: 30px;
+}
+.all_4 image{
+  width: 30px;
+  height: 30px;
+}
+.all_4 image{
+  width: 30px;
+  height: 30px;
+}
+.all_5 image{
+  width: 30px;
+  height: 30px;
+}
+.all_6 image{
+  width: 30px;
+  height: 30px;
+}
+.all_7 image{
+  width: 30px;
+  height: 30px;
+}

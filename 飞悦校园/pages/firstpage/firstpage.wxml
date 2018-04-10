@@ -1,0 +1,107 @@
+
+<view class='search flex-jcs flex-only'>
+    <input confirm-type='search flex-grow1' placeholder='  搜索' class='searchinput'  disabled="true">
+    </input>
+</view>
+
+<view class='swiper-container'>
+<swiper class='swiper'  indicator-dots="false "
+  autoplay="true" interval="{{interval}}" duration="{{duration}}" bindtap='swiperChange'>
+  <block wx:for="{{imgUrls}}" wx:key="unique">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"  height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<view class='text1'>
+  <view class='header'>
+    <text class='sel'>功能选择</text>
+  </view>
+</view>
+
+<view class='select-func'>
+   <view class='func' >
+     <image src='../../images/书本.png' bindtap='bklending'></image>
+    <view class='text'>
+    <text>图书借阅</text>
+    </view>
+   </view>
+   <view class='func' >
+    <image src='../../images/文件.png'></image>
+    <view class='text'> 
+     <text>打印</text> 
+    </view>
+   </view>
+   <view class='func' >
+    <image src='../../images/浴室先知.png'></image>
+    <view class='text'> 
+     <text>浴室先知</text>  
+    </view>
+   </view>
+   <view class='func' >
+    <image src='../../images/食堂.png'></image>
+    <view class='text'> 
+      食堂点餐
+    </view>
+  </view>
+  <view class='func' >
+      <image src='../../images/签到.png'></image>
+     <view class='text'> 
+      签到
+     </view>
+   </view>
+   <view class='func' >
+      <image src='../../images/消息.png'></image>
+     <view class='text'> 
+      消息
+     </view>
+   </view>
+   <view class='func' >
+      <image src='../../images/日历.png'></image>
+     <view class='text'> 
+      日程
+     </view>
+   </view>
+   <view class='func' >
+      <image src='../../images/收藏.png'></image>
+     <view class='text'> 
+      我的收藏
+     </view>
+   </view>
+ </view>
+
+ <view class='text1'>
+  <view class='header'>
+    <text class='sel'>每日推荐</text>
+  </view>
+</view>
+
+<view class='recommend'>
+  <view class='info'>
+  <image src='../../images/recommend.jpg'/>
+    <view class='desc'>
+       <text>好书推荐</text>
+    </view>
+  </view>
+  <view class='info'>
+   <image src='../../images/recommend.jpg'/>
+    <view class='desc'>
+       <text>好书推荐</text>
+    </view>
+  </view>
+  <view class='info'>
+   <image src='../../images/recommend.jpg'/>
+    <view class='desc'>
+       <text>好书推荐</text>
+    </view>
+  </view>
+  <view class='info'>
+   <image src='../../images/recommend.jpg'/>
+    <view class='desc'>
+       <text>好书推荐</text>
+    </view>
+  </view>
+</view>
+   

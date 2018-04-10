@@ -1,0 +1,39 @@
+<!--index.wxml-->
+
+<view class='all'>
+  <view>{{cilckMsg}}</view>
+  <view class='all_1' bindtap='all_1'>
+    <icon type='success' size="31"></icon>
+    登录/注册
+  </view>
+    
+  <view class='all_2' bindtap='all_2'>
+    <image src='../../images/收藏1.png'></image>
+    我的收藏
+    </view> 
+  
+  <view class='all_3' bindtap='all_3'>
+   <image src='../../images/关注.png'></image>
+   我的关注
+  </view>
+  
+  <view class='all_4' bindtap='all_4'>
+   <image src='../../images/浏览记录.png'></image>
+   浏览记录
+  </view>
+  
+  <view class='all_5' bindtap='all_5'>
+   <image src='../../images/我的客服.png'></image>
+   我的客服
+  </view>
+  
+  <view class='all_6' bindtap='all_6'>
+   <image src='../../images/设置.png'></image>
+   个人设置
+  </view>
+  
+  <view class='all_7' bindtap='all_7'>
+   <image src='../../images/分享.png'></image>
+   介绍给朋友
+  </view>
+</view>
